@@ -6,7 +6,10 @@ from marshmallow import pprint
 from schemata.employee import EmployeeSchema
 
 # Raw json to be serialized
-json_data = '{"firstName": "Brian", "lastName": "Rose", "jobTitle": "Engineer","company": "Company"}'
+json_data = (
+    '{"firstName": "Brian", "lastName": "Rose", "jobTitle": '
+    '"Engineer","company": "Company"}'
+)
 
 # Converted raw json to Python dictionary
 json_dict = json.loads(json_data)

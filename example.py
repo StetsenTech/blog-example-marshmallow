@@ -8,8 +8,7 @@ from schemata.employee import EmployeeSchema
 # Raw json to be serialized
 json_data = (
     '{"firstName": "Brian", "lastName": "Rose", "jobTitle": '
-    '"Engineer","company": "Company","interests": "BounceX"}'
-)
+    '"Engineer","company": "Company", "hobbies": "Gaming", "interests": "BounceX"}'
 
 # Converted raw json to Python dictionary
 json_dict = json.loads(json_data)

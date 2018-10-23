@@ -8,3 +8,4 @@ class EmployeeSchema(Schema):
     last_name = fields.String(required=True, attribute='lastName')
     job_title = fields.String(attribute='jobTitle')
     company = fields.String(required=True)
+    hobbies = fields.String(required=False)
